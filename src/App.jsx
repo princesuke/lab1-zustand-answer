@@ -7,6 +7,7 @@
 
 import CounterDisplay from "./components/CounterDisplay"
 import ButtonPanel from "./components/ButtonPanel"
+import HistoryLog from "./components/HistoryLog"
 
 function App() {
   // const [user, setUser] = useState({name: "John"})
@@ -20,6 +21,8 @@ function App() {
 
         <CounterDisplay />
         <ButtonPanel />
+        <HistoryLog />
+
 
         {/* <ThemeSwitcher /> */}
 
