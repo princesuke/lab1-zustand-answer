@@ -3,7 +3,7 @@
 
 // import { useCounterStore } from './stores/useCounterStore'
 
-// import ThemeSwitcher from './components/ThemeSwitcher'
+import ThemeSwitcher from './components/ThemeSwitcher'
 
 import CounterDisplay from "./components/CounterDisplay"
 import ButtonPanel from "./components/ButtonPanel"
@@ -19,12 +19,14 @@ function App() {
     <>
       <div>
 
+       <ThemeSwitcher />
+
         <CounterDisplay />
         <ButtonPanel />
         <HistoryLog />
 
 
-        {/* <ThemeSwitcher /> */}
+       
 
         {/* <h1>{count}</h1> */}
        
