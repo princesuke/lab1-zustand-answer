@@ -1,4 +1,4 @@
-import { useCounterStore } from "../stores/useCounterStore";
+import { useCounterStore } from "../stores/counterStore";
 
 export default function ButtonPanel() {
     const increase = useCounterStore((state)=>state.increase);

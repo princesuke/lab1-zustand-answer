@@ -1,4 +1,4 @@
-import { useCounterStore } from "../stores/useCounterStore";
+import { useCounterStore } from "../stores/counterStore";
 
 export default function CounterDisplay() {
     const count = useCounterStore((state)=>state.count);

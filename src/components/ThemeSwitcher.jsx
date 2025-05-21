@@ -1,4 +1,4 @@
-import { useThemeStore } from "../stores/useThemeStore";
+import { useThemeStore } from "../stores/themeStore";
 
 export default function ThemeSwitcher() {
     const theme = useThemeStore((state) => state.theme);
